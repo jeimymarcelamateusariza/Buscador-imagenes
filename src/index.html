@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body class="bg-black text-white container px-2 mx-auto">
+    <div class="flex flex-col gap-4 max-h-screen">
+        <div class="buscador flex flex-col mx-auto items-center text-center pt-5 lg:w-6/12 lg:mx-0 md:relative md:top-10 lg:top-25 max-w-[30rem]">
+            <h1 class="text-3xl md:text-5xl font-semibold">Encuentra miles de imagenes desde <br> <span
+                    class="font-bold text-pink-400">Pixabay</span></h1>
+            <form id="formulario" class="">
+                <div>
+                    <label class="block mt-5">Explorar</label>
+                    <input type="text" class="mt-3 rounded w-full p-2 bg-white text-black" placeholder="Buscar item"
+                        id="termino" />
+
+                    <input type="submit" value="Buscar Imágenes"
+                        class="mt-5 text-black w-full py-2 bg-pink-400 cursor-pointer font-bold uppercase hover:bg-pink-600 rounded">
+                </div>
+            </form>
+        </div>
+
+        <div
+            class="flex flex-col md:grid md:grid-rows-6 md:grid-cols-5 md:relative md:max-h-[29rem] lg:bottom-[10rem] lg:max-h-[49rem] gap-3">
+
+            <div class="img-grid  row-start-5 row-end-7 col-start-1 col-end-2">
+                <img src="img/imagen (1).jpg" alt="imagen">
+            </div>
+
+            <div class="img-grid row-start-4 row-end-6 col-start-2 col-end-3">
+                <img src="img/imagen (2).jpg" alt="imagen">
+            </div>
+            <div class="img-grid row-start-6 row-end-7 col-start-2 col-end-3">
+                <img src="img/imagen (3).jpg" alt="imagen">
+            </div>
+
+            <div class="img-grid row-start-3 row-end-5 col-start-3 col-end-4">
+                <img src="img/imagen (4).jpg" alt="imagen">
+
+            </div>
+            <div class="img-grid row-start-5 row-end-7 col-start-3 col-end-4">
+                <img src="img/imagen (5).jpg" alt="imagen">
+            </div>
+
+            <div class="img-grid row-start-2 row-end-4 col-start-4 col-end-5">
+                <img src="img/imagen (6).jpg" alt="imagen">
+            </div>
+            <div class="img-grid row-start-4 row-end-6 col-start-4 col-end-5">
+                <img src="img/imagen (7).jpg" alt="imagen">
+            </div>
+            <div class="img-grid row-start-6 row-end-7 col-start-4 col-end-5">
+                <img src="img/imagen (8).jpg" alt="imagen">
+            </div>
+
+
+            <div class="img-grid row-start-1 row-end-3 col-start-5 col-end-6">
+                <img src="img/imagen (3).jpg" alt="imagen">
+            </div>
+            <div class="img-grid row-start-3 row-end-5 col-start-5 col-end-6">
+                <img src="img/imagen (3).jpg" alt="imagen">
+            </div>
+            <div class="img-grid row-start-5 row-end-7 col-start-5 col-end-6">
+                <img src="img/imagen (3).jpg" alt="imagen">
+            </div>
+        </div>
+
+        <div id="resultado" class="container mx-auto mt-10  flex flex-wrap"></div>
+
+        <div id="paginacion" class="container mx-auto mb-10 text-center">
+
+
+    </div>
+</body>
+
+</html>
