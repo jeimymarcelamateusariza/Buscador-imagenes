@@ -9,9 +9,10 @@
 
 <body class="bg-black text-white container px-2 mx-auto">
     <div class="flex flex-col gap-4 max-h-screen">
-        <div class="buscador flex flex-col mx-auto items-center text-center pt-5 lg:w-6/12 lg:mx-0 md:relative md:top-10 lg:top-25 max-w-[30rem]">
+        <div class="buscador flex flex-col mx-auto items-center text-center pt-5 lg:w-6/12 lg:mx-0 md:relative md:top-10 lg:top-25 max-w-[30rem] md:z-50">
             <h1 class="text-3xl md:text-5xl font-semibold">Encuentra miles de imagenes desde <br> <span
                     class="font-bold text-pink-400">Pixabay</span></h1>
+
             <form id="formulario" class="">
                 <div>
                     <label class="block mt-5">Explorar</label>
@@ -25,7 +26,7 @@
         </div>
 
         <div
-            class="flex flex-col md:grid md:grid-rows-6 md:grid-cols-5 md:relative md:max-h-[29rem] lg:bottom-[10rem] lg:max-h-[49rem] gap-3">
+            class="flex flex-col md:grid md:grid-rows-6 md:grid-cols-5 md:relative md:max-h-[29rem] lg:bottom-[10rem] lg:max-h-[49rem] gap-3 md:z-10">
 
             <div class="img-grid  row-start-5 row-end-7 col-start-1 col-end-2">
                 <img src="img/imagen (1).jpg" alt="imagen">
@@ -74,6 +75,7 @@
 
 
     </div>
+    <script src="app.js"></script>
 </body>
 
 </html>
